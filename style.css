@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,7 +13,6 @@ img {
 
 .sec1 {
     color: #f7f6f4;
-    height: 350px;
     width: 100%;
 }
 
@@ -108,4 +108,884 @@ img {
 .nation .uk {
     width: 20px;
     height: 20px;
+}
+
+.sec2 {
+    background-color: #ece8d9;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.sec2a {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 80px;
+    align-items: center;
+}
+
+.sec2ai {
+    width: 33.3%;
+}
+
+.sec2aii {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 45%;
+}
+
+.sec2aii a {
+    font-family: "Inter", sans-serif;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #4B6382;
+    text-decoration: none;
+}
+
+.sec2aiii {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 21.7%;
+    align-items: center;
+}
+
+.sec2aiii img {
+    width: 30px;
+    height: 30px;
+}
+
+.signin {
+    font-family: "Inter", sans-serif;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #D77F81;
+    text-decoration: none;
+}
+
+.sec2aiii a:nth-child(2) {
+    font-family: "Inter", sans-serif;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #4B6382;
+    text-decoration: none;
+}
+
+.sec2b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2bi {
+    width: 75%;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.sec2bi h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 67.2px;
+    font-weight: 700;
+    color: #384A62;
+    padding-bottom: 15px;
+}
+
+.sec2bi p {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #708095;
+    padding-bottom: 35px;
+}
+
+.sec2bi1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 650px;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.sec2bi label {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #384A62;
+    padding-bottom: 7px;
+}
+
+.sec2bi1 input {
+    width: 85%;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: black;
+    caret-color: black;
+    font-size: 16px;
+}
+
+.sec2bi1 input::placeholder {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b0b8c2;
+}
+
+.sec2b-card img {
+    width: 500px;
+    padding-top: 20px;
+}
+
+.fixed {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    margin-top: -120px;
+    height: 80px;
+}
+
+.sec3 {
+    background-color: white;
+    padding: 35px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec3a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.sec3a h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #384A62;
+}
+
+.sec3a a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #D77F81;
+    text-decoration: none;
+}
+
+.sec3b {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec3b1 {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    max-width: 1200px;
+    align-items: stretch;
+}
+
+.card-child1 {
+   flex: 1 1 0;
+   display: flex;
+    min-width: 0;
+    flex-direction: column;
+}
+
+.card-child1 a {
+    text-decoration: none;
+     display: block;
+    overflow: hidden;
+}
+
+.card-child1 img {
+    width: 100%;
+    height: 200px;
+    display: block;
+     transition: transform 0.4s ease;
+}
+.card-child1:hover img {
+    transform: scale(1.1); 
+}
+.cardb {
+    display: flex;
+    flex: 1;
+}
+.cardb a {
+    text-decoration: none;
+    border: 1px solid #f0f0f0;
+    /* outline: none; */
+    background-color: white;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.cardb h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #384A62;
+    padding: 15px 0 30px 10px;
+}
+
+.start {
+    font-family: "Inter", sans-serif;
+    font-size: 12.8px;
+    font-weight: 700;
+    color: #708095;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.price {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #384A62;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.price span {
+    font-family: "Inter", sans-serif;
+    font-size: 14.4px;
+    font-weight: 700;
+    color: #708095;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0px;
+    background-color: #d77f81;
+    height: 38px;
+    width: 200px;
+    padding: 0 16px;
+    margin-left: 10px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.button-text {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    color: white;
+    white-space: nowrap;
+    min-width: 0;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.rt-chevron {
+    color: white;
+    flex-shrink: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sec3bii {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    max-width: 1200px;
+    align-items: stretch;
+}
+
+.card-child2 {
+   flex: 1 1 0;
+   display: flex;
+    min-width: 0;
+    flex-direction: column;
+}
+
+.card-child2 a {
+    text-decoration: none;
+     display: block;
+    overflow: hidden;
+}
+
+.card-child2 img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    transition: transform 0.4s ease;
+}
+.card-child2:hover img {
+    transform: scale(1.1);
+}
+.cardb {
+    display: flex;
+    flex: 1;
+}
+.cardb a {
+    text-decoration: none;
+    border: 1px solid #f0f0f0;
+    /* outline: none; */
+    background-color: white;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.cardb h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #384A62;
+    padding: 15px 0 30px 10px;
+}
+
+.start {
+    font-family: "Inter", sans-serif;
+    font-size: 12.8px;
+    font-weight: 700;
+    color: #708095;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.price {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #384A62;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.price span {
+    font-family: "Inter", sans-serif;
+    font-size: 14.4px;
+    font-weight: 700;
+    color: #708095;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0px;
+    background-color: #d77f81;
+    height: 38px;
+    width: 200px;
+    padding: 0 16px;
+    margin-left: 10px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.button-text {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    color: white;
+    white-space: nowrap;
+    min-width: 0;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.rt-chevron {
+    color: white;
+    flex-shrink: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sec3biii {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    max-width: 1200px;
+    align-items: stretch;
+}
+
+.card-child3 {
+     flex: 0 0 calc((100% - 75px) / 4); 
+   display: flex;
+    min-width: 0;
+    flex-direction: column;
+}
+
+.card-child3 a {
+    text-decoration: none;
+     display: block;
+    overflow: hidden;
+}
+
+.card-child3 img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    transition: transform 0.4s ease;
+}
+.card-child3:hover img {
+    transform: scale(1.1);
+}
+.cardb {
+    display: flex;
+    flex: 1;
+}
+.cardb a {
+    text-decoration: none;
+    border: 1px solid #f0f0f0;
+    /* outline: none; */
+    background-color: white;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.cardb h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #384A62;
+    padding: 15px 0 30px 10px;
+}
+
+.start {
+    font-family: "Inter", sans-serif;
+    font-size: 12.8px;
+    font-weight: 700;
+    color: #708095;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.price {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #384A62;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.price span {
+    font-family: "Inter", sans-serif;
+    font-size: 14.4px;
+    font-weight: 700;
+    color: #708095;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0px;
+    background-color: #d77f81;
+    height: 38px;
+    width: 200px;
+    padding: 0 16px;
+    margin-left: 10px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.button-text {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    color: white;
+    white-space: nowrap;
+    min-width: 0;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.rt-chevron {
+    color: white;
+    flex-shrink: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+.sec4 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 80px 50px 80px;
+}
+.sec4a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec4a h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #384A62;
+}
+
+.sec4a a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #D77F81;
+    text-decoration: none;
+    align-items: center;
+}
+
+.sec4b {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    max-width: 1200px;
+    align-items: stretch;
+}
+
+.sec4b-card {
+     flex: 0 0 calc((100% - 75px) / 4); 
+   display: flex;
+    min-width: 0;
+    flex-direction: column;
+}
+
+.sec4b-card a {
+    text-decoration: none;
+     display: block;
+    overflow: hidden;
+}
+
+.sec4b-card img {
+    width: 100%;
+    height: 200px;
+    display: block;
+     transition: transform 0.4s ease;
+}
+.sec4b-card:hover img {
+    transform: scale(1.1);
+}
+.cardb {
+    display: flex;
+    flex: 1;
+}
+.cardb a {
+    text-decoration: none;
+    border: 1px solid #f0f0f0;
+    /* outline: none; */
+    background-color: white;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.cardb h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #384A62;
+    padding: 15px 0 30px 10px;
+}
+
+.start {
+    font-family: "Inter", sans-serif;
+    font-size: 12.8px;
+    font-weight: 700;
+    color: #708095;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.price {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #384A62;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.price span {
+    font-family: "Inter", sans-serif;
+    font-size: 14.4px;
+    font-weight: 700;
+    color: #708095;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0px;
+    background-color: #d77f81;
+    height: 38px;
+    width: 200px;
+    padding: 0 16px;
+    margin-left: 10px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.button-text {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    color: white;
+    white-space: nowrap;
+    min-width: 0;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.rt-chevron {
+    color: white;
+    flex-shrink: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sec5 {
+    background-color: white;
+    padding: 30px 80px 50px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.sec5a h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #384A62;
+    padding-bottom: 15px;
+}
+.sec5a p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+     line-height: 28px;
+     color: #506683;
+}
+.sec6 {
+    background-color: #edf6fd;
+    padding: 50px 80px 70px 80px;
+}
+.sec6 h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #384A62;
+    padding-bottom: 30px;
+}
+.sec6cards {
+    display: flex;
+    gap: 25px;
+    align-items: stretch; 
+}
+.sec6-card {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 20px 30px 10px;
+    border-radius: 4px;
+    flex: 1 1 0;
+    min-width: 350px;
+}
+.sec6-card img {
+     width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    padding: 6px;
+    border: 1px solid #e6e9ee;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.card-text h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #384A62;
+    padding-bottom: 30px;
+}
+.card-text h4 a {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.card-text p {
+     font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #384A62;
+}
+.card-text p a {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.sec7 {
+    background-color: white;
+    padding: 100px 80px;
+}
+.sec7 h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #384A62;
+    padding-bottom: 30px;
+}
+.sec7-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.sec7-card {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.sec7-card h4 {
+     font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #384A62;
+    padding-bottom: 10px;
+}
+.sec7-card p {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #677F9E;
+     line-height: 1.2; 
+}
+.sec8 {
+    background-color: #f7f6f4;
+    padding: 100px 80px;
+}
+.sec8 h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #384A62;
+    padding-bottom: 30px;
+}
+.sec8-groups {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.sec8-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+
+}
+.sec8-group img {
+    height: 32px;
+     width: auto;
+    display: block;
+    object-fit: contain;
+}
+.cnn {
+    height: 32px;
+    width: 60px;
+    display: block;
+    object-fit: contain;
+}
+.sec8-group a {
+     font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #384A62;
+}
+.sec9 {
+    background-color: #384A62;
+    padding: 60px 80px 80px 80px;
+}
+.se9-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 100px;
+}
+.sec9-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec9-child h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ECE8D9;
+    /* padding-bottom: 15px; */
+}
+.sec9-child li {
+    list-style: none;   
+}
+.sec9-child a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.sec9-child ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sec9-socialicons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.payment {
+    width: 150px;
+    object-fit: contain;
+}
+.tail {
+     width: 150px;
+    object-fit: contain;
+}
+.sec-10 {
+    background-color: #cbcac8;
+    padding: 30px 80px;
+}
+.sec-10 div {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #384A62;
+    text-align: center;
 }
