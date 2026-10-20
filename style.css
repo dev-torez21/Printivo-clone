@@ -836,10 +836,10 @@ img {
     min-width: 350px;
 }
 .sec6-card img {
-     width: 28px;
-    height: 28px;
+     width: 50px;
+    height: 50px;
     flex-shrink: 0;
-    padding: 6px;
+    padding: 9px;
     border: 1px solid #e6e9ee;
     border-radius: 50%;
     object-fit: contain;
