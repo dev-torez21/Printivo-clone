@@ -120,10 +120,32 @@ img {
 .sec2a {
     display: flex;
     flex-direction: row;
-    padding: 25px 80px;
+    padding: 14px 80px;
     align-items: center;
 }
+.sec2a {
+   position: fixed;
+    left: 0;
+    width: 100%;
+    top: 60px; 
+    z-index: 100;
+    background: #ffffff;
+    animation: nav-bg linear both, nav-top linear both;
+    animation-timeline: scroll(root), scroll(root);
+    animation-range: 40px 100px, 0px 60px;
+}
+.sec2 {
+     padding-top: 70px; 
+}
+@keyframes nav-bg {
+    from { background: #eae7da; box-shadow: none; }
+    to   { background: #ffffff; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); }
+}
 
+@keyframes nav-top {
+    from { top: 60px; }                
+    to   { top: 0; }                  
+}
 .sec2ai {
     width: 33.3%;
 }
